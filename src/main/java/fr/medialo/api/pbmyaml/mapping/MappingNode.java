@@ -43,30 +43,4 @@ public class MappingNode extends Mapping {
 
         return new MappingNode(this.map, this.key, key);
     }
-
-
-//    static class MapperBuilder {
-//
-//        public static Mapping start(){
-//            return new Mapping(new LinkedHashMap<>());
-//        }
-//
-//        public MapperBuilder add(){
-//
-//            return this;
-//        }
-//
-//    }
-
-
 }
-
-
-/*
-
-Mapping m = Mapping.create(
-
-
-);
-
- */

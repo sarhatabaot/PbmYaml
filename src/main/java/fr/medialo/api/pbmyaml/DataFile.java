@@ -30,10 +30,10 @@ public abstract class DataFile implements IDataFile, DataInteraction {
     }
 
     @Override
-    abstract public void load(Path path);
+    public abstract void load(Path path);
 
     @Override
-    abstract public void save(KeepComments keepComments);
+    public abstract void save(KeepComments keepComments);
 
     @Override
     public String getExtension() {

@@ -13,15 +13,6 @@ A small class that provides an easy way to save data and keep comments in Yaml f
 - Save the comments present in the Yaml file.
 - Be the same as bukkit but keeping the comments ;)
 
-------------
-### Fonctionnalités
-
-- Obtenir des valeurs depuis un fichier Yaml.
-- Changer ces valeurs.
-- Enregistrer ces valeurs sur le dique au format Yaml.
-- Sauvegarder les commentaires présents dans le fichier Yaml.
-- Soit la même chose que bukkit mais en gardant les commentaires ;)
-
 
 ## How to use
 [Teleport me to the wiki!](https://github.com/Medialo/PbmYaml/wiki "Wiki is cool, cookies too")

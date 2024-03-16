@@ -103,7 +103,7 @@ public class PbmMap implements DataInteraction {
             } else {
                 map.remove(strs[i]);
                 System.out.println(toDelete);
-                if (map.size() == 0 && toDelete != -1) {
+                if (map.isEmpty() && toDelete != -1) {
                     Map<?,?> tempMap = (Map<?,?>) get(strs, toDelete - 2);
                     if (tempMap != null && toDelete > 1)
                         tempMap.remove(strs[toDelete - 1]);

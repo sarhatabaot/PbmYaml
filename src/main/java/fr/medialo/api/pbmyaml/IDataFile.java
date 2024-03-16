@@ -78,7 +78,7 @@ public interface IDataFile {
     void save(final KeepComments keepComments);
 
     /**
-     * reload method restore the first data's state in the {@link PbmMap} to cancel any change.
+     * reload method restores the first data's state in the {@link PbmMap} to cancel any change.
      */
     void reload();
 
