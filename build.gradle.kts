@@ -10,6 +10,7 @@ repositories {
 dependencies {
     api(libs.snake.yaml)
     api(libs.commons.lang)
+    testImplementation(libs.junit)
 }
 
 java {

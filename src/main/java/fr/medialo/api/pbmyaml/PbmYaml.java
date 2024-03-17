@@ -13,7 +13,7 @@ import java.util.regex.Pattern;
 
 public class PbmYaml extends DataFile {
 
-    private static final transient String EXTENSION = "yml";
+    private static final String EXTENSION = "yml";
     private final Yaml yaml;
 
     public PbmYaml() {
